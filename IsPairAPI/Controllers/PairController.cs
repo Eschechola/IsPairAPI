@@ -20,7 +20,7 @@ namespace IsPairAPI.Controllers
             if(_pairService.IsPair(number))
                 return Ok(string.Format("The {0} number is pair!", number));
             
-            return BadRequest(string.Format("The {0} number isn't pair!", number));
+            return BadRequest(string.Format("The {0} number is odd!", number));
         }
     }
 }
