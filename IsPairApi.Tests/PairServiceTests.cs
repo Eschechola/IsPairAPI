@@ -16,7 +16,7 @@ namespace IsPairApi.Tests
         public void IsPair_WhenNumberIsPair_ReturnsTrue()
         {
             // Arrange
-            var number = 3;
+            var number = 4;
 
             // Act
             var result = _sut.IsPair(number);
@@ -29,7 +29,7 @@ namespace IsPairApi.Tests
         public void IsPair_WhenNumberIsNotPair_ReturnsFalse()
         {
             // Arrange
-            var number = 4;
+            var number = 3;
 
             // Act
             var result = _sut.IsPair(number);
